@@ -35,9 +35,6 @@ ul li {
   font-size: 0;
 }
 
-.header {
-}
-
 .header__nav {
   display: flex;
 }
