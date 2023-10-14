@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Хрень</title>
+    <title>Всё через Ж</title>
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link
@@ -12,6 +12,11 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="site-container">
@@ -44,7 +49,10 @@
         </nav>
       </header>
       <main class="main">
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide slide__resolution"
+        >
           <div class="carousel-indicators">
             <button
               type="button"
@@ -69,13 +77,21 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./img/pic_1.png" class="d-block w-100" alt="..." />
+              <img src="./img/pic_1.png" class="d-block w-100" alt="фото-1" />
             </div>
             <div class="carousel-item">
-              <img src="./img/pic-2.png" class="d-block w-100" alt="..." />
+              <img src="./img/pic-2.png" class="d-block w-100" alt="фото-2" />
             </div>
             <div class="carousel-item">
-              <img src="./img/pic-3.png" class="d-block w-100" alt="..." />
+              <img src="./img/pic-3.png" class="d-block w-100" alt="фото-3" />
+            </div>
+            <div class="carousel__container">
+              <h2 class="title__carousel">Проектные решения любой сложности</h2>
+              <p class="paragraph__carousel">
+                Есть над чем задуматься: базовые сценарии поведения
+                пользователей и по сей день остаются уделом проектантов
+              </p>
+              <button class="btn__carousel">Заказать расчёт</button>
             </div>
           </div>
           <button
