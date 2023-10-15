@@ -14,7 +14,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   height: 100%;
-  min-width: 1920px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 a {
@@ -37,13 +38,13 @@ ul li {
 .header__nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: #fff;
   box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
-  padding: 14px 75px;
 }
 
-.header__logo {
-  margin-right: 729px;
+.right_header {
+  display: flex;
 }
 
 .logo-1 {
@@ -76,49 +77,37 @@ ul li {
 }
 
 .slide__resolution {
-  width: 1770px;
+  width: 100%;
   height: 620px;
-  margin: 75px 100px;
   margin-top: 0;
 }
 
 .carousel__container {
-  margin-top: 100px;
-  margin-left: 80px;
-  margin-right: 853px;
+  position: absolute;
+  padding-top: 100px;
+  padding-left: 80px;
+  padding-bottom: 100px;
 }
 
 .title__carousel {
-  position: absolute;
   color: #fff;
   font-size: 70px;
   font-weight: 800;
-  margin-bottom: 24px;
 }
 
 .paragraph__carousel {
-  position: absolute;
   color: #fff;
   font-size: 24px;
   font-weight: 700;
 }
 
-.carousel-control-prev {
-  /* думал изменить положение кнопки, но не получилось */
-  top: -100px;
+/* .paragraph__carousel {
 }
-
-.paragraph__carousel {
-  margin-bottom: 90px;
-}
+ */
 
 .btn__carousel {
-  position: absolute;
-  display: flex;
   width: 280px;
   height: 78px;
-  justify-content: center;
-  align-items: center;
   background: #f90;
   color: #fff;
   font-family: Montserrat;
