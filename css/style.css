@@ -93,17 +93,22 @@ ul li {
   color: #fff;
   font-size: 70px;
   font-weight: 800;
+  margin: 0;
+  margin-bottom: 24px;
+  width: 837px;
 }
 
 .paragraph__carousel {
   color: #fff;
   font-size: 24px;
   font-weight: 700;
+  width: 790px;
 }
 
-/* .paragraph__carousel {
+.paragraph__carousel {
+  margin: 0;
+  margin-bottom: 90px;
 }
- */
 
 .btn__carousel {
   width: 280px;
@@ -114,4 +119,9 @@ ul li {
   font-size: 23.458px;
   font-weight: 700;
   line-height: normal;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 2%;
 }
