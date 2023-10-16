@@ -1,0 +1,39 @@
+@media (min-width: 1920px) {
+  .burger__menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header__list {
+    display: none;
+  }
+  .burger__menu {
+    display: flex;
+  }
+  .header__logo {
+    display: flex;
+    width: 150px;
+    height: 48px;
+  }
+  .slide__resolution {
+    width: 924px;
+    height: 668px;
+  }
+
+  .carousel__container {
+    padding-top: 160px;
+    padding-left: 77px;
+    padding-bottom: 160px;
+  }
+
+  .title__carousel {
+    width: 770px;
+    height: 146px;
+  }
+  .paragraph__carousel {
+    width: 660px;
+    height: 48px;
+    margin-bottom: 60px;
+  }
+}
