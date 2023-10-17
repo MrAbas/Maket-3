@@ -1,10 +1,15 @@
-@media (min-width: 1920px) {
+@media (min-width: 1025px) {
   .burger__menu {
     display: none;
   }
 }
 
 @media (max-width: 1024px) {
+  .site-container {
+    margin: 0 auto;
+    padding: 0 50px; /* Косяк правый отступ */
+  }
+
   .header__list {
     display: none;
   }
@@ -17,7 +22,8 @@
     height: 48px;
   }
   .slide__resolution {
-    width: 924px;
+    /*     width: 924px;  ширина неправильная 
+ */
     height: 668px;
   }
 
@@ -32,6 +38,7 @@
     height: 146px;
   }
   .paragraph__carousel {
+    /* косяк нижний отступ */
     width: 660px;
     height: 48px;
     margin-bottom: 60px;
