@@ -7,12 +7,25 @@
 @media (max-width: 1024px) {
   .site-container {
     margin: 0 auto;
-    padding: 0 50px; /* Косяк правый отступ */
+    padding: 0 50px;
   }
 
   .header__list {
     display: none;
   }
+
+  .burger__content {
+    display: block;
+    position: absolute;
+    left: 0;
+    background-color: gray;
+    z-index: 50;
+  }
+
+  .header__item {
+    margin: 20px 80px 40px 30px;
+  }
+
   .burger__menu {
     display: flex;
   }
@@ -22,8 +35,6 @@
     height: 48px;
   }
   .slide__resolution {
-    /*     width: 924px;  ширина неправильная 
- */
     height: 668px;
   }
 
@@ -34,13 +45,24 @@
   }
 
   .title__carousel {
-    width: 770px;
+    max-width: 770px;
     height: 146px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
   }
   .paragraph__carousel {
-    /* косяк нижний отступ */
-    width: 660px;
-    height: 48px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 660px;
+    min-height: 48px;
     margin-bottom: 60px;
   }
 }
