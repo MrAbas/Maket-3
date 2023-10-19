@@ -132,11 +132,38 @@ ul li {
   background-image: url("../img/x.svg");
 }
 
+.container__search {
+  display: flex;
+  align-items: center;
+  max-width: 539px;
+  max-height: 60px;
+  padding: 16px 13px 16px 32px;
+}
+
+.show__container__search {
+  box-shadow: 0px 0px 20px 0px #0000001f;
+}
+
 .button__search {
   display: flex;
+  align-items: center;
   background-color: #fff;
   border: none;
   color: #333;
+  max-width: 539px;
+  max-height: 60px;
+}
+
+.input_btn {
+  margin-right: 14px;
+  border: none;
+  border-bottom: solid #dcdcdc;
+}
+
+.closed_search {
+  margin-left: 20px;
+  border: none;
+  background-color: #fff;
 }
 
 .slide__resolution {
@@ -187,4 +214,8 @@ ul li {
 .carousel-control-next,
 .carousel-control-prev {
   width: 2%;
+}
+
+.hidden {
+  display: none;
 }

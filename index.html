@@ -43,9 +43,20 @@
                   <a href="#" class="header__link">Контакты</a>
                 </li>
               </ul>
-              <button class="button__search">
-                <img src="./img/search.svg" alt="search" />
-              </button>
+              <div class="container__search" id="show__container__search">
+                <input
+                  type="text"
+                  id="btn_input"
+                  class="input_btn hidden"
+                  placeholder="Что будем искать?"
+                />
+                <button id="button__search" class="button__search">
+                  <img src="./img/search.svg" alt="search" />
+                </button>
+                <button class="closed_search hidden" id="closed_search">
+                  <img src="./img/closed_search.svg" alt="closed_search" />
+                </button>
+              </div>
             </div>
           </nav>
         </header>
