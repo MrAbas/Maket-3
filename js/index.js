@@ -1,5 +1,5 @@
-let burger__menu = document.getElementById("burger__menu");
-let burger__content = document.getElementById("burger__content");
+const burger__menu = document.getElementById("burger__menu");
+const burger__content = document.getElementById("burger__content");
 
 burger__menu.onclick = function () {
   burger__content.classList.toggle("burger__content");

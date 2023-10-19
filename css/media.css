@@ -31,11 +31,14 @@
   .burger__menu {
     display: flex;
   }
+
   .header__logo {
     display: flex;
     width: 150px;
     height: 48px;
+    margin: 26px 0;
   }
+
   .slide__resolution {
     height: 668px;
   }
@@ -47,8 +50,6 @@
   }
 
   .title__carousel {
-    max-width: 770px;
-    height: 146px;
     color: #fff;
     font-family: Montserrat;
     font-size: 60px;
@@ -56,6 +57,7 @@
     font-weight: 800;
     line-height: normal;
   }
+
   .paragraph__carousel {
     color: #fff;
     font-family: Montserrat;

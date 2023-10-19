@@ -119,8 +119,9 @@ ul li {
 .burger__menu {
   background-image: url("../img/burger_icon.svg");
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 23px;
+  background-repeat: no-repeat;
 }
 
 .burger__menu__cross {
@@ -152,12 +153,14 @@ ul li {
 }
 
 .title__carousel {
+  font-family: Montserrat;
   color: #fff;
   font-size: 70px;
   font-weight: 800;
   margin: 0;
   margin-bottom: 24px;
   width: 837px;
+  line-height: normal;
 }
 
 .paragraph__carousel {
@@ -167,17 +170,18 @@ ul li {
   width: 790px;
   margin: 0;
   margin-bottom: 90px;
+  line-height: normal;
 }
 
 .btn__carousel {
   width: 280px;
   height: 78px;
-  background: #f90;
+  background-color: #f90;
   color: #fff;
-  font-family: Montserrat;
   font-size: 23.458px;
   font-weight: 700;
   line-height: normal;
+  padding: 18.57px 37.14px;
 }
 
 .carousel-control-next,
