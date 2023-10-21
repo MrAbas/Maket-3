@@ -20,10 +20,9 @@
       <div class="site-container">
         <header class="header">
           <nav class="header__nav">
-            <a href="#" class="burger__menu" id="burger__menu"> </a>
+            <a href="#" class="burger__menu" id="burger__menu"></a>
             <a href="#" class="header__logo">
-              <img src="./img/logo-1.svg" alt="logo-1" class="logo-1" />
-              <img src="./img/logo-2.svg" alt="logo-2" />
+              <img src="./img/logo.svg" alt="Logo" />
             </a>
             <div class="right_header">
               <ul class="header__list" id="burger__content">
@@ -43,17 +42,17 @@
                   <a href="#" class="header__link">Контакты</a>
                 </li>
               </ul>
-              <div class="container__search" id="show__container__search">
+              <button class="button__search" id="button__search">
+                <img src="./img/search.svg" alt="search" />
+              </button>
+              <div class="container__search" id="container__search">
                 <input
                   type="text"
                   id="btn_input"
-                  class="input_btn hidden"
+                  class="input_btn"
                   placeholder="Что будем искать?"
                 />
-                <button id="button__search" class="button__search">
-                  <img src="./img/search.svg" alt="search" />
-                </button>
-                <button class="closed_search hidden" id="closed_search">
+                <button class="closed_search" id="closed_search">
                   <img src="./img/closed_search.svg" alt="closed_search" />
                 </button>
               </div>
@@ -67,6 +66,7 @@
         <div
           id="carouselExampleIndicators"
           class="carousel slide slide__resolution"
+          data-bs-ride="carousel"
         >
           <div class="carousel-indicators">
             <button
@@ -95,7 +95,7 @@
               <img
                 src="./img/pic_1.png"
                 class="d-block w-100"
-                alt="фото-1"
+                alt="..."
                 style="height: 100%"
               />
             </div>
@@ -103,7 +103,7 @@
               <img
                 src="./img/pic-2.png"
                 class="d-block w-100"
-                alt="фото-2"
+                alt="..."
                 style="height: 100%"
               />
             </div>
@@ -111,7 +111,7 @@
               <img
                 src="./img/pic-3.png"
                 class="d-block w-100"
-                alt="фото-3"
+                alt="..."
                 style="height: 100%"
               />
             </div>
@@ -131,7 +131,7 @@
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+            <span class="visually-hidden">Предыдущий</span>
           </button>
           <button
             class="carousel-control-next"
@@ -140,11 +140,12 @@
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+            <span class="visually-hidden">Следующий</span>
           </button>
         </div>
       </main>
     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
