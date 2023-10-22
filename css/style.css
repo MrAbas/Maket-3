@@ -253,7 +253,6 @@ ul li {
 .about__container {
   display: flex;
   justify-content: space-between;
-  border: 10px solid rebeccapurple;
   max-width: 1770px;
   min-height: 622px;
 }
@@ -261,23 +260,22 @@ ul li {
 .container__one {
   width: 868px;
   min-height: 622px;
-  border: 10px solid red;
   margin-right: 32px;
+  background-image: url("../img/img_container1.jpg");
+  background-repeat: no-repeat;
 }
 
 .container__two {
-  width: 868px;
-  min-height: 622px;
+  width: 870px;
+  max-height: 622px;
   border: 10px solid green;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .desc__one {
   width: 870px;
   min-height: 295px;
   border: 10px solid yellow;
+  margin-bottom: 32px;
 }
 
 .desc__two {
