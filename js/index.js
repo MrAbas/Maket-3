@@ -11,9 +11,11 @@ burger__menu.onclick = function () {
 };
 
 button__search.onclick = function () {
+  button__search.style.display = "none";
   container__search.classList.add("container__search_show");
 };
 
 closed_search.onclick = function () {
+  button__search.style.display = "block";
   container__search.classList.remove("container__search_show");
 };

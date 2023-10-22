@@ -16,8 +16,9 @@
     left: 0;
     background-color: gray;
     z-index: 50;
-    transform: translate(-200px);
+    transform: translate(-250px);
     transition: transform 2s ease-in-out;
+    width: 250px;
   }
 
   .burger__content {
