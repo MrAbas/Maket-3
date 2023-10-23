@@ -302,7 +302,7 @@ ul li {
 }
 
 .container__two {
-  max-width: 870px; /* !!!max оставил на время */
+  min-width: 870px; /* !!!min оставил на время, чтобы глаз радовал :) */
   max-height: 622px;
 }
 
