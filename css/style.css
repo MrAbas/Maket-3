@@ -47,7 +47,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
   width: 100%;
   height: 100%;
   max-width: 1920px; /* ? */
@@ -105,7 +105,6 @@ ul li {
 
 .header__link {
   color: #333;
-  font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -199,7 +198,6 @@ ul li {
 }
 
 .title__carousel {
-  font-family: Montserrat;
   color: #fff;
   font-size: 70px;
   font-weight: 800;
@@ -210,7 +208,8 @@ ul li {
 }
 
 .paragraph__carousel {
-  width: 790px;
+  max-width: 862px; /* !!! */
+  max-height: 58px; /* !!! */
   color: #fff;
   font-size: 24px;
   font-weight: 700;
@@ -220,7 +219,7 @@ ul li {
 }
 
 .btn__carousel {
-  width: 280px;
+  width: 290px; /* !!! */
   height: 78px;
   background-color: #f90;
   color: #fff;
@@ -228,6 +227,10 @@ ul li {
   font-weight: 700;
   line-height: normal;
   padding: 18.57px 37.14px;
+}
+
+.about {
+  margin-bottom: 100px;
 }
 
 .title__about {
@@ -238,6 +241,8 @@ ul li {
   line-height: normal;
   margin-left: 2px;
   margin-bottom: 20px;
+  max-width: 141px;
+  max-height: 59px;
 }
 
 .paragraph__about {
@@ -342,7 +347,6 @@ ul li {
 }
 
 .paragraph_desc__one {
-  font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 32px;
@@ -350,4 +354,75 @@ ul li {
   text-align: left;
   max-width: 450px;
   max-height: 128px;
+}
+
+.how {
+  margin-bottom: 100px;
+}
+
+.title__how {
+  color: #333;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+  max-width: 430px;
+}
+
+.buttons_how {
+  margin-bottom: 45px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 453px; /* !!! */
+}
+
+.step__one {
+  border: none;
+  background: none;
+  color: #e1670e;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.step__another {
+  border: none;
+  background: none;
+  color: #333333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.how__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title_l-container {
+  max-width: 331px;
+  min-height: 32px;
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.paragraph__how {
+  width: 758px; /* !!! */
+  max-height: 320px;
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+.img_work {
+  max-width: 870px;
+  max-height: 460px;
 }
