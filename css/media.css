@@ -72,3 +72,16 @@
     margin-bottom: 60px;
   }
 }
+
+@media (max-width: 1747px) {
+  .container__one {
+    margin-right: 10px;
+  }
+
+  .desc__one {
+    padding: 1.6% 3% 1.6% 3%;
+  }
+  .desc__two {
+    padding: 1.6% 3% 1.6% 3%;
+  }
+}
