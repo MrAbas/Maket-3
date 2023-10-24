@@ -319,7 +319,7 @@ ul li {
   justify-content: space-between;
   max-width: 870px;
   min-width: 150px;
-  max-height: 295px;
+  min-height: 295px;
   margin-bottom: 32px;
   padding: 5.6% 10% 5.6% 5%;
 }
