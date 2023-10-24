@@ -274,7 +274,7 @@ ul li {
 .holder {
   display: flex;
   max-width: 868px;
-  max-height: 196px;
+  min-height: 196px;
   background: #00000080;
   padding: 50px;
 }
@@ -292,8 +292,8 @@ ul li {
 }
 
 .btn-holder {
-  width: 175px;
-  height: 58px;
+  max-width: 175px;
+  max-height: 58px;
   padding: 19px 38px 19px 38px;
   margin-top: 18px;
   border: 3px solid #ff9900;
@@ -335,6 +335,11 @@ ul li {
 .img_desc {
   max-width: 190px;
   max-height: 165px;
+}
+
+.desc_two_text {
+  max-width: 450px;
+  min-height: 165px;
 }
 
 .title_desc__one {
