@@ -274,6 +274,7 @@ ul li {
 .holder {
   display: flex;
   max-width: 868px;
+  width: 100%;
   min-height: 196px;
   background: #00000080;
   padding: 50px;
@@ -342,7 +343,7 @@ ul li {
   min-height: 165px;
 }
 
-.title_desc__one {
+.title_desc {
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
@@ -350,6 +351,7 @@ ul li {
   text-align: left;
   margin-bottom: 8px;
   max-width: 452px;
+  max-height: 165px;
 }
 
 .paragraph_desc__one {
