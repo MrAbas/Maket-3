@@ -18,7 +18,7 @@
     background-color: gray;
     z-index: 50;
     transform: translate(-1200px);
-    transition: transform 2s ease-in-out;
+    transition: transform 1s ease-in-out;
     width: 250px;
   }
 
@@ -29,7 +29,7 @@
 
   .burger__content {
     transform: translate(-925px);
-    transition: transform 2s ease-in-out;
+    transition: transform 1s ease-in-out;
   }
 
   .header__item {
@@ -88,6 +88,12 @@
 }
 
 @media (max-width: 1150px) {
+  .site-container {
+    padding: 0 50px;
+  }
+  .holder {
+    padding: 40px;
+  }
   .desc__one {
     display: flex;
     flex-direction: column;
