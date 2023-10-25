@@ -307,6 +307,9 @@ ul li {
 }
 
 .container__two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   max-width: 870px;
   width: 100%;
   max-height: 622px;
@@ -318,7 +321,6 @@ ul li {
   max-width: 870px;
   min-width: 150px;
   min-height: 295px;
-  margin-bottom: 32px;
   padding: 5.6% 10% 5.6% 5%;
   border: 1px solid #cacaca;
 }
