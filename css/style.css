@@ -241,7 +241,6 @@ ul li {
   margin-left: 2px;
   margin-bottom: 20px;
   max-width: 141px;
-  max-height: 59px;
 }
 
 .paragraph__about {
@@ -251,7 +250,7 @@ ul li {
   font-weight: 400;
   line-height: normal;
   max-width: 1235px;
-  min-height: 192px;
+  margin-bottom: 50px;
 }
 
 .about__container {
@@ -269,6 +268,7 @@ ul li {
   min-height: 622px;
   background-image: url("../img/img_container1.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 1%;
 }
 
@@ -312,7 +312,7 @@ ul li {
   justify-content: space-between;
   max-width: 870px;
   width: 100%;
-  max-height: 622px;
+  min-height: 622px;
 }
 
 .desc__one {
