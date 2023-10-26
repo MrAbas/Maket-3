@@ -88,9 +88,6 @@
 }
 
 @media (max-width: 1150px) {
-  .site-container {
-    padding: 0 50px;
-  }
   .holder {
     padding: 40px;
   }
@@ -100,7 +97,7 @@
     align-items: center;
   }
   .img_desc {
-    max-width: 120px;
+    max-width: 110px;
   }
   .paragraph_desc__one {
     max-width: 400px;
@@ -121,6 +118,9 @@
 }
 
 @media (max-width: 1160px) {
+  .site-container {
+    padding: 0 50px;
+  }
   .img_desc {
     margin-right: 10px;
   }
