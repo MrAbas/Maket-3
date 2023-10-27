@@ -48,8 +48,6 @@ html {
 
 body {
   font-family: Montserrat;
-  width: 100%;
-  height: 100%;
 }
 
 a {
@@ -294,7 +292,7 @@ ul li {
 .btn-holder {
   max-width: 175px;
   max-height: 58px;
-  padding: 19px 38px 19px 38px;
+  padding: 19px 38px;
   margin-top: 18px;
   border: 3px solid #ff9900;
   color: #fff;
@@ -411,10 +409,18 @@ ul li {
 .how__container {
   display: flex;
   justify-content: space-between;
+  max-width: 1770px;
+  min-height: 470px;
+}
+
+.left__container {
+  max-width: 758px;
+  min-height: 470px;
+  margin-right: 50px;
 }
 
 .title_l-container {
-  max-width: 331px;
+  max-width: 336px;
   min-height: 32px;
   color: #333;
   font-size: 24px;
@@ -424,8 +430,8 @@ ul li {
 }
 
 .paragraph__how {
-  width: 758px; /* !!! */
-  max-height: 320px;
+  max-width: 758px; /* !!! */
+  min-height: 320px;
   color: #333;
   font-size: 16px;
   font-style: normal;
@@ -433,7 +439,31 @@ ul li {
   line-height: 32px; /* 200% */
 }
 
-.img_work {
+.btn-how-one {
+  height: 60px;
+  padding: 19px 38px;
+  background: #f90;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btn-how-two {
+  height: 60px;
+  padding: 19px 38px;
+  color: #333;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: #fff;
+  border: 1px solid #333;
+}
+
+.right__container {
   max-width: 870px;
-  max-height: 460px;
+  min-height: 460px;
 }
