@@ -493,3 +493,57 @@ ul li {
   background-image: url("../img/accordion__img.svg");
   background-size: auto; /* !!! */
 }
+
+.footer {
+  max-width: 1920px;
+  min-height: 594px;
+  background-color: #222;
+  padding: 50px 75px;
+}
+
+.one__item {
+  max-width: 252px;
+}
+
+.footer__logo {
+  min-width: 224px;
+  min-height: 72px; /* почему-то контент меньше */
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  min-height: 252px;
+  margin-bottom: 90px;
+}
+
+.item__list {
+  min-height: 36px;
+  color: #cacaca;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px; /* 200% */
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  max-width: 230px;
+  min-height: 60px;
+}
+
+.social__item {
+  min-width: 60px;
+  min-height: 60px;
+}
+
+.item__fb {
+  background-image: url("../img/icon_fb.svg");
+}
+
+.item__vk {
+  background-image: url("../img/icon_vk.svg");
+}
+
+.item__inst {
+  background-image: url("../img/icon_inst.svg");
+}
