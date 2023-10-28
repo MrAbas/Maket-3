@@ -469,3 +469,27 @@ ul li {
   min-height: 460px;
   height: 100%;
 }
+
+.faq {
+  margin-bottom: 100px;
+}
+
+.accordion-item {
+  max-width: 1770px;
+  min-height: 112px;
+}
+
+.title__accordion {
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+
+.accordion-button::after {
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/accordion__img.svg");
+  background-size: auto; /* !!! */
+}
