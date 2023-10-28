@@ -199,7 +199,7 @@ ul li {
   font-size: 70px;
   font-weight: 800;
   line-height: normal;
-  width: 837px;
+  max-width: 837px;
   margin: 0;
   margin-bottom: 24px;
 }
@@ -216,8 +216,8 @@ ul li {
 }
 
 .btn__carousel {
-  width: 290px; /* !!! */
-  height: 78px;
+  max-width: 288px; /* !!! */
+  min-height: 78px;
   background-color: #f90;
   color: #fff;
   font-size: 23.458px;
@@ -437,6 +437,7 @@ ul li {
   font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 200% */
+  margin-bottom: 50px;
 }
 
 .btn-how-one {
@@ -466,4 +467,5 @@ ul li {
 .right__container {
   max-width: 870px;
   min-height: 460px;
+  height: 100%;
 }
