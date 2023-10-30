@@ -163,7 +163,7 @@
 
   .desc__one {
     flex-direction: row;
-    min-width: 924px;
+    max-width: 924px;
     padding: 65px 155px 65px 77px;
   }
 
@@ -173,22 +173,22 @@
   }
 
   .container_two_text {
-    min-width: 463px;
+    max-width: 463px;
     min-height: 165px;
   }
 
   .title_desc {
-    min-width: 462px;
-    max-height: 28px;
+    max-width: 462px;
+    min-height: 28px;
   }
 
   .paragraph_desc__one {
-    min-width: 450px;
+    max-width: 450px;
   }
 
   .desc__two {
     flex-direction: row;
-    min-width: 924px;
+    max-width: 924px;
     padding: 65px 155px 65px 77px;
   }
 }
