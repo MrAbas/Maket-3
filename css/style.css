@@ -460,7 +460,8 @@ ul li {
 }
 
 .btn-how-two {
-  height: 60px;
+  max-width: 147px;
+  min-height: 60px;
   padding: 19px 38px;
   color: #333;
   font-size: 16px;
@@ -715,7 +716,9 @@ ul li {
 
 .three__item {
   max-width: 363px;
-  max-height: 320px;
+  max-height: 494px;
+  display: flex;
+  align-items: center;
 }
 
 .paragraph__item {
