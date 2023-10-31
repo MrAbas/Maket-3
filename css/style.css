@@ -76,10 +76,12 @@ ul li {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 75px;
-  overflow: hidden;
+  /*   overflow: hidden;
+ */
 }
 
 .header__nav {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -90,7 +92,6 @@ ul li {
 }
 
 .right_header {
-  position: relative;
   display: flex;
 }
 
@@ -203,6 +204,7 @@ ul li {
   font-weight: 800;
   line-height: normal;
   max-width: 837px;
+  max-height: 170px;
   margin: 0;
   margin-bottom: 24px;
 }
@@ -444,7 +446,8 @@ ul li {
 }
 
 .btn-how-one {
-  height: 60px;
+  max-width: 175px;
+  min-height: 60px;
   padding: 19px 38px;
   background: #f90;
   color: #fff;
@@ -475,6 +478,8 @@ ul li {
   height: 100%;
   background-image: url("../img/img_work.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
 }
 
 .faq {

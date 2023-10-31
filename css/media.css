@@ -56,11 +56,13 @@
     margin-bottom: 5px;
   }
 }
+
 @media (min-width: 1025px) {
   .burger__menu {
     display: none;
   }
 }
+
 @media (max-width: 1024px) {
   .site-container {
     margin: 0 auto;
@@ -71,21 +73,23 @@
     display: block;
     position: absolute;
     left: -19px;
-    top: -14px;
+    top: 33px;
     background-color: gray;
     z-index: 50;
-    transform: translate(-1200px);
+    transform: translate(-325px);
     transition: transform 1s ease-in-out;
     width: 250px;
+    margin: 0;
   }
 
   .container__search_show {
-    transform: translate(-477px);
+    transform: translate(446px);
+    top: 20px;
     max-width: 300px;
   }
 
   .burger__content {
-    transform: translate(-925px);
+    transform: translate(-39px);
     transition: transform 1s ease-in-out;
   }
 
