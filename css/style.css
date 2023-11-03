@@ -160,8 +160,8 @@ ul li {
 
 .container__search_show {
   background-color: #fff;
-
-  transform: translate(0);
+  top: 20px;
+  transform: translate(972px);
   transition: transform 0.2s ease-in-out;
 }
 
@@ -530,6 +530,10 @@ ul li {
   height: 50px;
   background-image: url("../img/accordion__img.svg");
   background-size: auto; /* !!! */
+}
+
+.footer_container {
+  background-color: #222;
 }
 
 .footer {

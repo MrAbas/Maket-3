@@ -80,6 +80,7 @@
     transition: transform 1s ease-in-out;
     width: 250px;
     margin: 0;
+    opacity: 0;
   }
 
   .container__search_show {
@@ -91,6 +92,7 @@
   .burger__content {
     transform: translate(-39px);
     transition: transform 1s ease-in-out;
+    opacity: 1;
   }
 
   .header__item {
