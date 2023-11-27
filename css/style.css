@@ -583,6 +583,7 @@ ul li {
 .social__item {
   min-width: 60px;
   min-height: 60px;
+  background-repeat: no-repeat;
 }
 
 .item__fb {
